@@ -10,4 +10,10 @@ fun main() {
 
     }
 
+
+    //mutable list
+    val guitarBrands = mutableListOf("Fender", "Charvel")
+    guitarBrands.add("Jackson")
+    println(guitarBrands.get(2))
+
 }
